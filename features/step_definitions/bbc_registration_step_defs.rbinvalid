@@ -1,0 +1,47 @@
+Given("I try to register with an invalid password") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When("I submit my details") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then("I receive an error for not having the correct password") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given("I access the bbc registration page") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When("I click on the under {int} button") do |int|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then("I am redirected to the corresponding page") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given("I try to register as a {int} year old") do |int|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+When("I click the continue button") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then("an error message appears") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given("I try to register with the wrong postcode") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Given("I try to register with the wrong email format") do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Then("I receive an error for not having the correct email format") do
+  pending # Write code here that turns the phrase above into concrete actions
+end

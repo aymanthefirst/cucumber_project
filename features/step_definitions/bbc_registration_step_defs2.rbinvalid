@@ -1,0 +1,33 @@
+Given("I access the bbc registration page with invalid password") do
+  # registration.visit_page
+  # registration.click_over_age
+  # registration.fill_day(23)
+  # registration.fill_month(10)
+  # registration.fill_year(1990)
+  # registration.click_date
+  # registration.fill_email("jimmyneutron@hotmail.com")
+  # registration.fill_password("password")
+  # registration.select_gender
+  # registration.no_thanks
+  # registration.click_register
+end
+
+When("I submit my details") do
+
+end
+
+Then("I receive an error for not having the correct password") do
+  # expect(registration.invalid_password_message).to include("password isn't valid")
+end
+
+Given("I access the bbc registration page") do
+  registration.visit_page
+end
+
+When("I click on the under {int} button") do |int|
+  registration.click_under_age
+end
+
+Then("I am redirected to the corresponding page") do
+  puts registration.current_url
+end
