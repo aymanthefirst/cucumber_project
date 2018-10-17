@@ -54,7 +54,6 @@ Given("I try to register with the wrong postcode") do
   registration.fill_month(10)
   registration.fill_year(1990)
   registration.click_date
-  puts "big h"
   registration.fill_post_code("dddd")
   registration.fill_email("jimmyneutron@hotmail.com")
   registration.fill_password("Password1234")
